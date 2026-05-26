@@ -1,0 +1,6 @@
+# OS cruft
+Thumbs.db
+.DS_Store
+
+# Windows download Mark-of-the-Web alternate data streams (sometimes show up as files)
+*Zone.Identifier*

@@ -1,0 +1,81 @@
+{
+  "topic": "Access-control and IDOR gadgets for authorized bug bounty testing",
+  "input_mode": "topic",
+  "loops": 1,
+  "parallelism": "simulated-pass-per-skill",
+  "research_depth": "standard",
+  "seed": "https://www.bugcrowd.com/blog/how-to-find-bugs-on-a-hardened-target-using-gadgets/",
+  "skills_used": [
+    {
+      "name": "research-mastery",
+      "path": "C:\\Users\\Madhura Nadh\\Videos\\Studies\\research skill",
+      "role": "v1 foundations and WHY-level artifact rules"
+    },
+    {
+      "name": "research-mastery-v2",
+      "path": "C:\\Users\\Madhura Nadh\\Videos\\Studies\\research skill v2",
+      "role": "v2 scout/writer/judge separation, brief-first synthesis"
+    },
+    {
+      "name": "research-hunt-v3",
+      "path": "C:\\Users\\Madhura Nadh\\Videos\\Studies\\research skill v3",
+      "role": "v3 source hunt and curated link notes"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "00",
+      "title": "Access-Control Gadget Foundations",
+      "filename": "artifacts/briefs/00-v1-foundations.md",
+      "focus": "Definition, WHY model, behavioral signals before payloading",
+      "must_include": [
+        "Definition of access-control gadget",
+        "Object, property, function, tenant, and workflow boundaries",
+        "Behavioral signals before payloading",
+        "Safe canary-only testing model"
+      ],
+      "status": "complete",
+      "loop": 1,
+      "score": 86,
+      "judge_notes": [
+        "Foundation pass is intentionally brief; final artifact carries the full practitioner list."
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Scout Brief and Source Index",
+      "filename": "artifacts/briefs/01-v2-scout-brief.md",
+      "focus": "Canonical facts and source coverage for the final artifact",
+      "must_include": [
+        "BOLA/BOPLA/BFLA source grounding",
+        "GraphQL, WebSocket, cache/CDN, REST workflow, tenant isolation sources",
+        "Open questions and safe constraints"
+      ],
+      "status": "complete",
+      "loop": 1,
+      "score": 88,
+      "judge_notes": [
+        "Source coverage is enough for the requested artifact; deeper case-study hunt can be added later."
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Access-Control Gadget Artifact",
+      "filename": "access-control-idor-gadget-artifact.md",
+      "focus": "Practitioner-ready gadget map, safe chains, and report wording",
+      "must_include": [
+        "Definition",
+        "Behavioral signals before payloading",
+        "Categorized gadget list",
+        "Safe chain formulas",
+        "Report wording hints"
+      ],
+      "status": "complete",
+      "loop": 1,
+      "score": 91,
+      "judge_notes": [
+        "Covers all user-prioritized surfaces and keeps evidence model canary-only."
+      ]
+    }
+  ]
+}
