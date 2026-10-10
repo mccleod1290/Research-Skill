@@ -8,9 +8,9 @@ There is no build and no install step for this repo. Do not scan the tree for a 
 
 ## Read first
 
-Read `skills/research/SKILL.md` before a hunt. Follow it. It is the rules, the tools, the guidelines, the plugin, and the extra features. The golden rule, date pinning, first-order sources, and the Medium rule sit beside those. They do not replace them. Names live in `skills/research/references/trusted.md`. Do not invent a second workflow.
+Read `skills/research/SKILL.md` before a hunt. That is the only skill. `research v3` means that file. Follow it in order: rules, goal from the prompt, guidelines, tools, plugin, extra features. They do not replace each other. Names live in `skills/research/references/trusted.md`. Do not invent a second workflow.
 
-`research skill v3/SKILL.md` only points there. `archive/` is dead work, including `archive/v3-draft/`. Do not open it to borrow a method.
+`archive/` is dead work, including `archive/v3-draft/`. Do not open it to borrow a method.
 
 ## Rules that bind even before the skill is open
 

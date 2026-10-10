@@ -4,7 +4,7 @@ This repo finds niche blogs for specialized security research. It does not teach
 
 Study is a separate pipeline: [Study-OS](https://github.com/mccleod1290/Study-OS).
 
-The live skill is [`skills/research/SKILL.md`](skills/research/SKILL.md). Agents follow [`AGENTS.md`](AGENTS.md).
+The one live skill is [`skills/research/SKILL.md`](skills/research/SKILL.md). `research v3` is that same file. Agents follow [`AGENTS.md`](AGENTS.md).
 
 Deep research is for a niche in offensive security, AI security, or vulnerability research. General learning, such as Azure architecture, is not a research run.
 
